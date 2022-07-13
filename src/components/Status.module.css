@@ -1,0 +1,23 @@
+.Status {
+  margin-right: 15px;
+  position: absolute;
+  display: flex;
+  right: 30px;
+  align-items: baseline;
+}
+
+.Error {
+  font-size: .8rem;
+}
+
+.loading{
+  font-size: 1rem;
+}
+
+.show {
+  visibility: show;
+}
+
+.hide{
+  visibility: hidden;
+}

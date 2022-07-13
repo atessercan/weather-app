@@ -1,0 +1,8 @@
+.forecast {
+  width: 350px;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,22 @@
+.LocationInput {
+  position: relative;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 15px;
+  
+  width: 350px;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 7px;
+  padding: 8px 0 10px 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(180deg, #405EFD 95%, rgba(170, 155, 255, 0.765625));
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.LocationInput > *,.LocationInput > *:focus  {
+  border:none;
+  outline: none;
+  background-color: transparent;
+}

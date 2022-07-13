@@ -1,0 +1,119 @@
+.today_card {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-evenly;
+  width: 350px;
+  height: 288px;
+  background: linear-gradient(170deg, rgb(64, 94, 253) 0%, rgba(170, 155, 255, 0.765625) 66.15%, rgba(214, 207, 255, 0.5) 100%);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  font-family: 'Maven Pro', sans-serif;
+  margin-bottom: 12px;
+}
+
+.top {
+  flex: 1;
+  align-self: flex-end;
+  font-weight: lighter;
+  font-size: .8rem;
+}
+
+.update_info {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: baseline;
+  align-items: center;
+  gap: 10px;
+  font-size: .7rem;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.update_icon {
+  cursor: pointer;
+}
+
+.middle {
+  flex: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: .4rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  flex: 6;
+  display: flex;
+  flex-flow: nowrap row;
+
+}
+
+.left {
+  flex: 2;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.temps_top {
+  flex:1;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.temps_bottom {
+  flex:1;
+  display: flex;
+  flex-flow: nowrap column;
+  flex-flow: nowrap column;
+  font-size: 1.5rem;
+}
+
+.maxmin_temp {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+}
+
+.other_info {
+  margin-top:20px;
+  font-size: 1rem;
+  font-weight: normal;
+  display: flex;
+  flex-flow: nowrap row;
+  gap:15px;
+}
+
+.current_temp {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.feels_like {
+  font-size: .8rem;
+}
+
