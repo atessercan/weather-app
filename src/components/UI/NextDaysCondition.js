@@ -7,7 +7,7 @@ import { faWind } from "@fortawesome/free-solid-svg-icons";
 const NextDayCondition = (props) => {
 
   const { weather } = useContext(WeatherContext);
-  
+
   let index = props.index;
   let day=props.day;
 
@@ -15,7 +15,6 @@ const NextDayCondition = (props) => {
     <div className={classes.NextDay}>
       <div className={classes.top}>
         <div className={classes.left}>
-          {/* GÜN İSİMLERİ DOĞRU ÇIKMIYOR DÜZELTİLECEK */}
           <div className={classes.day}>{day}</div>
           <div className={classes.maxmintemp}> 
 
