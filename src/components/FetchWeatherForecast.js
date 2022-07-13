@@ -18,7 +18,7 @@ const FetchWeatherForecast = () => {
       city = `${weather.lat},${weather.lon}`;
     }
     try {
-      const url = `http://api.weatherapi.com/v1/forecast.json?key=0e2615296c9a4d99a51134317220507&q=${city}&days=7&aqi=no&alerts=no&lang=tr`;
+      const url = `https://api.weatherapi.com/v1/forecast.json?key=0e2615296c9a4d99a51134317220507&q=${city}&days=7&aqi=no&alerts=no&lang=tr`;
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error(" Veri alınamadı");
